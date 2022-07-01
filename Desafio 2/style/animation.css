@@ -1,0 +1,43 @@
+/*
+.description-header{
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: normal;
+    font-size: 22px;
+    border-right: 1px solid #fff;
+}
+
+@keyframes type-title {
+    from {
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes type-description {
+    from {
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes blinkCursor{
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+@keyframes scale {
+    to {
+        transform: scale(1.2);
+    }
+}
+*/
+
+/* --- Responsive --- */

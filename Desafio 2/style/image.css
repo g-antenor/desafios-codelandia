@@ -1,0 +1,89 @@
+/*
+#header-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url("../img/wallpaper.jpeg");
+    min-height: 600px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.card > img{
+    height: 200px;
+    width: auto;
+}
+.img-catalog{
+    text-align: center;
+    z-index: 4;
+}
+
+.img-catalog:hover{
+    transform-origin: left right top bottom;
+    animation: scale 400ms ease-in-out forwards;
+}
+*/
+
+/* --- Responsive --- */
+@media screen and (max-width: 481px){
+    
+    /* --- Cabeçalho --- */
+    #header-background{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url("../img/wallpaper.jpeg");
+        min-height: 400px;
+        background-attachment:fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+
+    /* --- Conteúdo --- */
+    .card > img{
+        height: 200px;
+        width: auto;
+    }
+    .img-catalog{
+        text-align: center;
+        z-index: 4;
+    }
+
+    .img-catalog:hover{
+        transform-origin: left right top bottom;
+        animation: scale 400ms ease-in-out forwards;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    
+    /* --- Cabeçalho --- */
+    #header-background{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.7)), url("../img/wallpaper.jpeg");
+        min-height: 600px;
+        background-attachment:fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+
+    /* --- Conteúdo --- */
+    .card > img{
+        height: 200px;
+        width: auto;
+    }
+    .img-catalog{
+        text-align: center;
+        z-index: 4;
+    }
+
+    .img-catalog:hover{
+        transform-origin: left right top bottom;
+        animation: scale 400ms ease-in-out forwards;
+    }
+}
